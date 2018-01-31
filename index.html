@@ -2,31 +2,47 @@
 <html lang="en">
 
 <head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93927233-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-93927233-1');
+	</script>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Darrel Nato</title>
-	<meta name="author" content="">
-	<meta name="description" content="">
+	<meta name="author" content="Darrel Nato">
+	<meta name="description" content="Darrel is a creative frontend developer / designer from the Philippines. If you're interested in working together, send him a love letter at johndarrelnato@gmail.com">
 
 	<!-- favicons -->
-	<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6401df">
+	<meta name="theme-color" content="#ffffff">
 
 	<!-- social media -->
 
-	<meta property="og:title" content="" />
+	<meta property="og:title" content="Darrel Nato" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="https://darrelnato.github.io" />
     <meta property="og:image" content="">
-    <meta property="og:description" content="" />
-    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="Darrel is a creative frontend developer / designer from the Philippines. If you're interested in working together, send him a love letter at johndarrelnato@gmail.com" />
+    <meta property="og:site_name" content="Darrel Nato" />
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:site" content="@">
-    <meta name="twitter:creator" content="@">
+    <meta name="twitter:title" content="Darrel Nato">
+    <meta name="twitter:description" content="Darrel is a creative frontend developer / designer from the Philippines. If you're interested in working together, send him a love letter at johndarrelnato@gmail.com">
+    <meta name="twitter:site" content="@darrelnato">
+    <meta name="twitter:creator" content="@darrelnato">
     <meta name="twitter:image" content="">
 
 	<!-- bootstrap -->
@@ -40,7 +56,7 @@
 
 	<nav class="navbar" id="navbar">
 		<div class="container">
-			<a href="" id="dn-logo">Darrel Nato</a>
+			<a href="https://darrelnato.github.io" id="dn-logo">Darrel Nato</a>
 
 			<button class="burger d-block d-md-none">
 				<span class="line"></span>
@@ -61,8 +77,6 @@
 			</ul>
 		</div>
 	</nav>
-
-	<!-- hidden menu -->
 
 	<div class="d-flex align-items-center" id="hidden-menu">
 		<ul>
@@ -96,22 +110,55 @@
 
 				<div id="work-grid">
 					<div class="col-12 d-md-flex justify-content-between" id="work-row">
-						<div class="col-12 col-md-7 project-item odd">
-							<a href="https://reddit.com/r/Philippines" target="_blank">
-								<span class="col-12 tilt-js" id="work-redditph">
-									<span id="work-desc">
-										<p class="work-title">Reddit Philippines</p>
-										<p class="work-cat">Web Design</p>
+						<div class="col-12 col-md-4 project-item">
+							<a href="https://darrelnato.github.io/boom" target="_blank">
+								<span class="col-12 tilt-js" id="work-boom">
+									<span>
+										<p class="work-title">Boom</p>
+										<p class="work-desc">concept product/landing page design.</p>
+									</span>
+									<span class="d-flex justify-content-between work-bottom">
+										<p class="work-date">2018</p>
+										<p class="work-arrow">→</p>
 									</span>
 								</span>
 							</a>
 						</div>
-						<div class="col-12 col-md-5 project-item even">
-							<a href="">
+						<div class="col-12 col-md-4 project-item">
+							<a href="https://darrelnato.github.io/taskit/" target="_blank">
 								<span class="col-12 tilt-js" id="work-sidekick">
-									<span id="work-desc">
-										<p class="work-title">Sidekick</p>
-										<p class="work-cat">App Design</p>
+									<span>
+										<p class="work-title">Taskit</p>
+										<p class="work-desc">a simple to-do app made with angularJS.</p>
+									</span>
+									<span class="d-flex justify-content-between work-bottom">
+										<p class="work-date">2017</p>
+										<p class="work-arrow">→</p>
+									</span>
+								</span>
+							</a>
+						</div>
+						<div class="col-12 col-md-4 project-item">
+							<span class="col-12 d-none d-md-inline-block  tilt-js" id="blank">
+							</span>
+						</div>
+					</div>
+
+					<div class="col-12 d-md-flex justify-content-between" id="work-row">
+						<div class="col-12 col-md-4 project-item">
+							<span class="col-12 d-none d-md-inline-block tilt-js" id="blank">
+							</span>
+						</div>
+						<div class="col-12 col-md-8 project-item">
+							<a href="https://reddit.com/r/Philippines" target="_blank">
+								<span class="col-12 tilt-js" id="work-redditph">
+									<span>
+										<p class="work-title">Reddit Philippines</p>
+										<p class="work-desc">a modern theme custom made for r/Philippines.</p>
+									</span>
+									<span class="d-flex justify-content-between work-bottom">
+										<p class="work-date">2015</p>
+										<p class="work-arrow">→</p>
 									</span>
 								</span>
 							</a>
@@ -119,26 +166,26 @@
 					</div>
 
 					<div class="col-12 d-md-flex justify-content-between" id="work-row">
-						<div class="col-12 col-md-6 project-item odd">
-							<a href="">
-								<span class="col-12 tilt-js tall" id="work-3">
-									<span id="work-desc">
-										<p class="work-title">Prime Infusions</p>
-										<p class="work-cat">Web Design</p>
+						<div class="col-12 col-md-4 project-item">
+							<a href="https://darrelnato.github.io/degustation" target="_blank">
+								<span class="col-12 tilt-js" id="work-citysuite">
+									<span>
+										<p class="work-title">Dégustation</p>
+										<p class="work-desc">responsive, multi-page website built with bootstrap.</p>
+									</span>
+									<span class="d-flex justify-content-between work-bottom">
+										<p class="work-date">2016</p>
+										<p class="work-arrow">→</p>
 									</span>
 								</span>
 							</a>
 						</div>
-						<div class="col-12 col-md-6 project-item even">
-							<a href="">
-								<span class="col-12 tilt-js short" id="work-4">
-									<span id="work-desc">
-										<p class="work-title">Dégustation</p>
-										<p class="work-cat">Web Design</p>
-									</span>
-								</span>
-							</a>
-							<a href="https://dribbble.com/darrelnato" target="_blank">
+						<div class="col-12 col-md-4 project-item">
+							<span class="col-12 d-none d-md-inline-block tilt-js" id="blank">
+							</span>
+						</div>
+						<div class="col-12 col-md-4 project-item">
+							<a href="https://behance.net/darrelnato" target="_blank">
 								<span class="col-12 d-flex align-items-center justify-content-center tilt-js short" id="view-more">
 									<span>
 										<p class="work-title">view more →</p>
@@ -152,7 +199,6 @@
 		</div>
 	</div>
 
-	<!-- about -->
 	<div class="section" id="about-me">
 		<div class="container">
 			<div class="col-12 col-md-11 col-lg-10 content">
@@ -194,8 +240,6 @@
 			</div>
 		</div>
 	</div>
-
-	
 
 	<div class="section" id="connect">
 		<div class="container">

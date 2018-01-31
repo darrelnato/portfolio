@@ -11,6 +11,7 @@ $(document).ready(function() {
     });
 
   $('.tilt-js').tilt({
-    perspective: 10000
+    perspective: 10000,
+    scale: 1.1
   })
 });
