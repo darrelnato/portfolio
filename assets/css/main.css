@@ -43,15 +43,15 @@ body::-webkit-scrollbar {
   display: none; }
 
 ::-moz-selection {
-  background: #6401DF;
+  background: #0A24CF;
   color: #FFF; }
 
 ::selection {
-  background: #6401DF;
+  background: #0A24CF;
   color: #FFF; }
 
 ::-moz-selection {
-  background: #6401DF;
+  background: #0A24CF;
   color: #FFF; }
 
 a:hover {
@@ -79,15 +79,15 @@ a:hover {
       display: inline-block;
       margin-top: 50px; }
   .section #link {
-    border-bottom: 3px solid #6401DF;
-    color: #6401DF;
+    border-bottom: 3px solid #0A24CF;
+    color: #0A24CF;
     display: inline-block;
     font-family: 'fb', serif;
     font-size: 2rem;
     margin-top: 25px;
     padding-bottom: 5px; }
     .section #link:hover {
-      background: #6401DF;
+      background: #0A24CF;
       color: #FFF; }
 
 #navbar {
@@ -176,7 +176,7 @@ a:hover {
       -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
       #navbar .burger.cross .line {
-        background-color: #6401DF;
+        background-color: #0A24CF;
         margin: 4px 0; }
         #navbar .burger.cross .line:first-child {
           -moz-transform: rotate(-90deg);
@@ -200,7 +200,7 @@ a:hover {
       padding: 0;
       text-transform: uppercase; }
       #navbar li.nav-item a.nav-link:hover {
-        color: #6401DF; }
+        color: #0A24CF; }
 
 #hidden-menu {
   background: #F6F3F9;
@@ -224,7 +224,7 @@ a:hover {
     #hidden-menu ul li {
       margin: 25px 0; }
       #hidden-menu ul li a.nav-link {
-        color: #6401DF;
+        color: #0A24CF;
         font-family: 'fb', serif;
         font-size: 2.250rem;
         padding: 0;
@@ -285,13 +285,13 @@ a:hover {
       #work #work-grid #work-row .tilt-js#work-citysuite p {
         color: #000; }
     #work #work-grid #work-row .tilt-js#view-more {
-      background: #6401DF; }
+      background: #0A24CF; }
       #work #work-grid #work-row .tilt-js#view-more span p {
         color: #FFF;
         font-family: 'fb', serif;
         font-size: 2.250rem; }
     #work #work-grid #work-row .tilt-js p {
-      color: #6401DF;
+      color: #0A24CF;
       line-height: 1;
       margin: 0; }
       #work #work-grid #work-row .tilt-js p.work-title {
