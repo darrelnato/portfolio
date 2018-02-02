@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'fr';
   src: url("../../assets/fonts/fr.eot");
@@ -31,6 +32,9 @@
 html,
 body {
   height: 100%; }
+
+html, a {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="38" style="font-size:34px"><text y="34">💀</text></svg>'), auto; }
 
 body {
   background: #FFF;
