@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'ndm';
+  src: url("/assets/fonts/ndm.eot");
+  src: url("/assets/fonts/ndm.eot") format("embedded-opentype"), url("/assets/fonts/ndm.svg#ndm") format("svg"), url("/assets/fonts/ndm.woff2") format("woff2"), url("/assets/fonts/ndm.woff") format("woff"), url("/assets/fonts/ndm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'al';
+  src: url("/assets/fonts/al.eot");
+  src: url("/assets/fonts/al.eot") format("embedded-opentype"), url("/assets/fonts/al.svg#al") format("svg"), url("/assets/fonts/al.woff2") format("woff2"), url("/assets/fonts/al.woff") format("woff"), url("/assets/fonts/al.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ar';
+  src: url("/assets/fonts/ar.eot");
+  src: url("/assets/fonts/ar.eot") format("embedded-opentype"), url("/assets/fonts/ar.svg#ar") format("svg"), url("/assets/fonts/ar.woff2") format("woff2"), url("/assets/fonts/ar.woff") format("woff"), url("/assets/fonts/ar.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+html,
+body {
+  height: 100%; }
+
+html {
+  cursor: url("../../assets/img/cursor-default.png"), auto; }
+
+::-moz-selection {
+  background: #00F;
+  color: #FFF; }
+
+::selection {
+  background: #00F;
+  color: #FFF; }
+
+::-moz-selection {
+  background: #00F;
+  color: #FFF; }
+
+a {
+  cursor: url("../../assets/img/cursor-default.png"), auto; }
+
+body {
+  background: #F1ECE4;
+  color: #262627;
+  font-family: 'al', serif;
+  overflow-x: hidden;
+  -webkit-font-feature-settings: "zero","onum","calt";
+  font-feature-settings: "zero","onum","calt"; }
+
+body::-webkit-scrollbar {
+  display: none; }
+
+a {
+  color: #262627; }
+  a:hover {
+    color: #262627;
+    text-decoration: none; }
+
+.container {
+  padding: 0 25px; }
+
+#footer {
+  padding-bottom: 25px; }
+  #footer div {
+    border-top: 1px solid #EBEBEB;
+    padding: 25px 0; }
+  #footer #footer-social-links {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    #footer #footer-social-links li {
+      font-size: 1.250rem;
+      margin-bottom: 10px;
+      margin-right: 30px; }
+      #footer #footer-social-links li .social-link {
+        padding-left: 0;
+        padding-right: 0;
+        position: relative; }
+        #footer #footer-social-links li .social-link:after {
+          background: #00F;
+          content: "";
+          display: inline-block;
+          height: 0;
+          width: 100%;
+          opacity: 0.5;
+          position: absolute;
+          bottom: 0px;
+          left: 0; }
+        #footer #footer-social-links li .social-link:hover:after {
+          height: 10px;
+          -webkit-transition-duration: 0.3s;
+          -o-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
+  #footer p {
+    font-size: 1.125rem;
+    margin: 0;
+    margin-top: 20px; }
+
+@media screen and (min-width: 768px) {
+  #footer {
+    padding: 0; }
+    #footer #footer-social-links li {
+      display: inline-block;
+      margin-bottom: 0; }
+    #footer p {
+      display: inline-block;
+      margin: 0; } }
+
+.custom-button {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 1.125rem;
+  line-height: 24px;
+  padding: 9px 24px 12px; }
+  .custom-button.fill-button {
+    background: #00F;
+    border: 1px solid #00F;
+    color: #FFF;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+    .custom-button.fill-button:hover {
+      opacity: 0.8;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s; }
+  .custom-button.stroke-button {
+    border: 1px solid #262627;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+    .custom-button.stroke-button:hover {
+      opacity: 0.8;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s; }
+
+@media screen and (min-width: 768px) {
+  .custom-button {
+    font-size: 1.250rem; } }
+
+#hero {
+  margin-bottom: 75px;
+  padding-top: 75px; }
+  #hero p#hero-text-heading {
+    font-family: 'ndm', sans-serif;
+    font-size: 3.500rem;
+    line-height: 1.25;
+    margin: 0; }
+  #hero p#hero-text-subheading {
+    font-size: 1.125rem;
+    line-height: 1.50;
+    margin: 0;
+    margin-top: 15px;
+    max-width: 500px; }
+  #hero .custom-button {
+    margin-top: 25px;
+    margin-right: 10px; }
+
+@media screen and (min-width: 768px) {
+  #hero {
+    padding: 0; }
+    #hero p#hero-text-heading {
+      font-size: 5rem; }
+    #hero p#hero-text-subheading {
+      font-size: 1.250rem; } }
